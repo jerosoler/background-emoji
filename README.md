@@ -1,24 +1,19 @@
-# svg-background-emoji
+# 🔥 Background Emoji 🎉
 
-## Project setup
-```
-npm install
-```
+![Demo](https://github.com/jerosoler/background-emoji/raw/master/docs/img/background-emoji.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[PLAY](https://jerosoler.github.io/background-emoji/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Simple emoji background generator
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Features 
+- Personalized
+- Export
+  - SVG
+  - CSS
+  - PNG
+- Responsive
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## License 
+MIT License

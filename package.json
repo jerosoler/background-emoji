@@ -1,15 +1,29 @@
 {
-  "name": "svg-background-emoji",
+  "name": "background-emoji",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --dest docs && cp src/assets/background-emoji.png docs/img/background-emoji.png",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "svg",
+    "background",
+    "emoji",
+    "css",
+    "png"
+  ],
+  "author": "Jero Soler",
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "element-ui": "^2.13.2",
+    "prismjs": "^1.20.0",
+    "v-emoji-picker": "^2.2.0",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-prism-component": "^1.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
