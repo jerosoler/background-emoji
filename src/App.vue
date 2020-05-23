@@ -419,6 +419,9 @@ header h1 {
   .el-card.hidden {
     display: none;
   }
+  .el-dialog {
+    width: 85% !important;
+  }
 }
 
 .examples .el-card {
